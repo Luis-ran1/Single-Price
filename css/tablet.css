@@ -1,0 +1,28 @@
+section{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 4rem;
+}
+.first-container{
+    width: 100%;
+    max-width: none;
+}
+.second-container{
+    width: 50%;
+    height: 24rem;
+    max-width: none;
+    border-bottom-left-radius: 0.5rem;
+}
+.third-container{
+    width: 50%;
+    height: 24rem;
+    max-width: none;
+    border-bottom-left-radius: 0;
+}
+.third-container h2{
+    font-size: 2.5rem;
+}
+.third-container p{
+    font-size: 1.8rem;
+    width: auto;
+}

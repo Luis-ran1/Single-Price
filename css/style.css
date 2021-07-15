@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Karla', sans-serif;
+}
+body{
+    background-color: hsl(218, 22%, 67%);
+}
+.first-container{
+    background-color: white;
+    width: 90%;
+    max-width: 32rem;
+    height: auto;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 2rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+.first-container h1{
+    color: hsl(179, 62%, 43%);
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.first-container .first-container--text{
+    color: hsl(71, 73%, 54%);
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.first-container p{
+    color: grey;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.second-container{
+    background-color: hsl(179, 62%, 43%);
+    width: 90%;
+    max-width: 32rem;
+    height: auto;
+    margin: auto;
+    padding: 2rem;
+}
+.second-container h2{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    color: white;
+    font-weight: 700;
+}
+.second-container .suscription{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 3.6rem;
+    color: white;
+}
+.second-container .suscription small{
+    font-size: 1.4rem;
+    color: hsl(204deg 43% 93% / 53%);
+}
+.second-container .second-suscription{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    color: white;
+}
+.second-container button{
+    background-color: hsl(71, 73%, 54%);
+    width: 90%;
+    margin: 1rem;
+    height: 4rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-family:'Karla', sans-serif ;
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.third-container{
+    background-color: hsl(193deg 76% 66%);
+    width: 90%;
+    max-width: 32rem;
+    height: auto;
+    margin: auto;
+    padding: 2rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.third-container h2{
+    color: white;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.third-container p{
+    width: 13rem;
+    color: #ffffffa3;
+    font-size: 1.2rem;
+}
+/* Footer */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
